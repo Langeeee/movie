@@ -82,7 +82,7 @@ public class MovieResourceTest {
 
     @Test
     public void testServerIsUp() {
-        System.out.println("Testing is server UP");
+        System.out.println("Testing is server UP!");
         given().when().get("/movie/isalive").then()
                 .assertThat().statusCode(200)
                 .body("msg",equalTo("Movie API is up"));
