@@ -11,7 +11,7 @@ public class Populator {
         facade.create(new MovieDTO("Film A",2000,new String[] {"aaa", "bbb", "ccc"}));
         facade.create(new MovieDTO("Film A and more",2000,new String[] {"a11", "b11", "c11"}));
         facade.create(new MovieDTO("Film B",2000,new String[] {"a11", "b11", "c11"}));
-        facade.create(new MovieDTO("Film C",2000,new String[] {"a22", "b22", "c22"}));
+        facade.create(new MovieDTO("Film C",2000,new String[] {"a2s2", "b22", "c22"}));
     }
     
     public static void main(String[] args) {
