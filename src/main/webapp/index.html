@@ -7,13 +7,37 @@
     <body>
         <h1>-Fredag uge 3 movie opgave-</h1>
         
-        <button id="btn">Get Date</button>
-        <ul id ="data"></ul>
+       
+        
+         <ul id ="data"></ul>
+        <button id="btn">Hent alle film</button>
+        <table class="table">
+  
+        
+         
+        
+        <div class="row">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-8">
+                <h3>Specifik film</h3>
+                <div id="searchresult">
+                </div>
+                <form onsubmit="getElementById(event)" id="myForm" action="#">
+                    <input type="number" name="movieId" min="1" step="1">
+                    <input value="Get movie by id" type="submit">
+                </form>
+            </div>
+       
         
         <script src="minJavascript.js">
-            
-            
+             
         </script>
+        
+        <td><a href="api/movie/byid/1">film med id 1</a></td> <br>
+        <td><a href="api/movie/byid/2">film med id 2</a></td> <br>
+        <td><a href="api/movie/byid/3">film med id 3</a></td> <br>
+        <td><a href="api/movie/byid/4">film med id 4</a></td> <br>
        
     </body>
 </html>
